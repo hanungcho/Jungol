@@ -17,7 +17,7 @@ public class Scannerex3 {
 		
 
 		age = scanner.nextInt();
-		a = scanner.next().charAt(0);
+		a = scanner.next().charAt(0); 
 		name = scanner.nextLine();
 		scanner.close();
 
