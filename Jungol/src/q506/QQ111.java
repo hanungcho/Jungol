@@ -2,20 +2,22 @@ package q506;
 
 import java.util.Scanner;
 
-public class qq537 {
+public class QQ111 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		
 
-		int i = sc.nextInt();
-		int sum = 0, num = 1;
-		while (num <= 10) {
+		int sum = 0;
+		int num = sc.nextInt();
+
+		for (int i = 0; i < 4; i++)
+
 			sum += num;
-			num++;
+		{
+
+			System.out.println(sum);
 		}
-		System.out.println(sum);
-
 	}
-
 }
+
+
