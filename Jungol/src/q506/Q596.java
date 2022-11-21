@@ -6,17 +6,16 @@ public class Q596 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		String[] str = new String[100];
-		
+		//String[] str = new String[100];
+
 		String sce = sc.nextLine();
 		int a = sc.nextInt();
-		
-		for (int i = 0; i < sce.length; i--)  
-			System.out.println(arr[i]);
-		
-		
-		
+		sc.close();
 
+		for (int i = sce.length()-1; a > 0; i--, a--) {
+			System.out.print(sce.charAt(i));
+
+		}
 	}
 
 }

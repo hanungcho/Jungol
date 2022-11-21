@@ -18,6 +18,7 @@ public class Q573 {
 		for (int i = 1; i <= x(num); i++) {
 			System.out.print(i + " ");
 			if ((i % num) == 0) {
+				sc.close();
 
 				System.out.println();
 			}

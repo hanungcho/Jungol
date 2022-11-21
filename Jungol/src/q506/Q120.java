@@ -9,6 +9,7 @@ public class Q120 {
 
 		int a = sc.nextInt();
 		int b = sc.nextInt();
+		sc.close();
 
 		if (a < b) {
 			System.out.println(b - a);
@@ -16,6 +17,8 @@ public class Q120 {
 			System.out.println(a - b);
 
 		}
+		
+		System.out.println(Math.abs(a-b));
 
 	}
 
