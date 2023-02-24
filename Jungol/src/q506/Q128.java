@@ -13,9 +13,10 @@ public class Q128 {
 
 			if (a == 0)
 				break;
-			if (a % 3 != 0 && a % 5 != 0)
+			else if (a % 3 != 0 && a % 5 != 0)
 				con++;
 		}
+		sc.close();
 		System.out.println(con);
 
 	}

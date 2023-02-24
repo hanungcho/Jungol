@@ -10,8 +10,7 @@ public class Main {
 		int m = sc.nextInt();
 		sc.close();
 
-		int[][] ar;
-		ar = new int[n][m];
+		int[][] ar = new int[n][m];
 		int num = 1;
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < m; j++) {

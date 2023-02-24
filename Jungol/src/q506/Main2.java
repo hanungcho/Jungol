@@ -1,25 +1,20 @@
 package q506;
 
+import java.util.Scanner;
+
 public class Main2 {
 
-	public static void main(String[] args) {
+	public double avg(int num) {
+		return num * num * 3.14;
 
-//		int a = 0;
-//		int b = 1;
-//
-//		int z = -1;
-//		int x = 100;
-//
-//		int result1 = a + z;
-//		int result2 = b * x;
-//
-//		System.out.println(result1);
-//		System.out.println(result2);
-		int a, b;
-		a = -1;
-		b = 100;
-
-		System.out.println(a + "\n" + b);
 	}
 
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int num = sc.nextInt();
+		Main2 qq = new Main2();
+		System.out.printf("%.2f", qq.avg(num));
+		sc.close();
+
+	}
 }

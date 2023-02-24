@@ -11,7 +11,7 @@ public class Q543 {
 		
 		for (int i = 1; i <= a;i++) {
 			if ((i%2) == 0) {
-				System.out.println(i);
+				System.out.print(i+ " ");
 				
 			}
 		}

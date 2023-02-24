@@ -25,8 +25,7 @@ public class Main {
 		int c = sc.nextInt();
 		sc.close();
 
-		Main m = new Main();
-		int d = m.fx(a, b, c); 
+		int d = Main.fx(a, b, c); 
 
 		System.out.printf("%d %s %d = %d", a, b, c,d);
 
